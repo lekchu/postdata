@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 
 # Load trained model and label encoder
-model = joblib.load('ppd_model_pipeline.pkl')
+model = joblib.load('ffnn_pipeline.pkl')
 le = joblib.load('label_encoder.pkl')
 
 st.title("Postpartum Depression Risk Predictor")
